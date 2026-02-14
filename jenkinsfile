@@ -4,7 +4,7 @@ pipeline{
         stage('source code') {
             steps {
                 echo 'Cloning...'
-                   git branch: 'main', url: 'https://github.com/Subikshan666/terraform.git'
+                   git branch: 'main', url: 'https://github.com/Subikshan666/Terraform.git'
 
             }
         }
